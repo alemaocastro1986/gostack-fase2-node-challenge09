@@ -15,3 +15,11 @@ container.registerSingleton<ICustomersRepository>(
   'CustomerRepository',
   CustomersRepository,
 );
+container.registerSingleton<IProductsRepository>(
+  'ProductsRepository',
+  ProductsRepository,
+);
+container.registerSingleton<IOrdersRepository>(
+  'OrdersRepository',
+  OrdersRepository,
+);
